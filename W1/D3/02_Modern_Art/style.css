@@ -1,0 +1,69 @@
+
+
+#canvas {
+    width: 660px;
+    height: 660px;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#thick-row {
+    flex-grow: 3;
+    display: flex;
+    gap: 25px;
+}
+
+#thin-row {
+    flex-grow: 1;
+    display: flex;
+    gap: 25px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 38px;
+}
+
+.top {
+    flex: 1;
+    width: 150px;
+}
+
+.white {
+    background-color: #ebebe9;
+}
+
+.red {
+    background-color: #e6332c;
+    flex: 3;
+}
+
+.blue {
+    background-color: #035c9e;
+    width: 150px;
+}
+
+.yellow {
+    background-color: #efdd6f;
+}
+
+.big {
+    width: 400px;
+}
+
+.small {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.tiny {
+    flex: 1;
+    width: 65px;
+}

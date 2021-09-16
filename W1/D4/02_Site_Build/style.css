@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* outline: 1px dotted red; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #12171c;
+}
+
+nav {
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: rgb(18, 23, 28);
+    padding: 25px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+#bungie-logo {
+    width: 150px;
+}
+
+.navlinks {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(180, 182, 183);
+    font-size: 14px;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    background-color: rgb(255, 206, 31, 0.6);
+    border: 1px solid rgb(255, 206, 31);
+    color: white;
+    padding: 10px;
+}
+
+
+.right-side {
+    gap: 15px;
+}
+
+a.material-icons {
+    font-size: 23pt;
+}
+
+#different_for_some_reason {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header {
+    height: 60vh;
+    background-image: url('./images/witch_queen.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-title {
+    width: 600px;
+}
+
+h2 {
+    color:white;
+}
+
+#learn-more {
+    width: 300px;
+}
+
+.thing-i-have-to-move-left {
+    position: relative;
+    left: -20%;
+}
+
+main {
+    width: 1600px;
+    margin: 30px auto;
+    border-top: 1px solid rgb(180, 182, 183);
+}
+
+h3 {
+    display: inline-block;
+    background-color: rgb(245 245 245);
+    padding: 5px 10px;
+    font-size: 12pt;
+    margin-bottom: 20px;
+}
+
+.things {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    padding: 30px 20px;
+}
+
+.card {
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.primary {
+    background-image: url('./images/mara_sov.jpg');
+    height: 400px;
+    width: 700px;
+}
+
+.secondary {
+    background-image: url('./images/savathun.jpg');
+    height: 400px;
+    width: 350px;
+}
+.tertiary {
+    width: 375px;
+    height: 130px;
+}
+
+h4 {
+    color: white;
+    font-size: 14pt;
+}
+
+
+#showcase {
+    background-image: url('./images/logo.jpg')
+}
+#crossplay {
+    background-image: url('./images/crossplay.jpg')
+}
+
+p {
+    color: white;
+    font-size: 10pt;
+    margin-bottom: 5px;
+}

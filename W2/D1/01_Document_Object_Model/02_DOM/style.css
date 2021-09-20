@@ -1,0 +1,10 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cheese {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    background-image: url('cheez.jpg');
+}
